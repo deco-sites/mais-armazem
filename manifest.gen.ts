@@ -2,18 +2,36 @@
 // This file SHOULD be checked into source version control.
 // This file is automatically updated during development when running `dev.ts`.
 
+import * as $$$$$$$$$0 from "./actions/getCodes.ts";
+import * as $$$$$$$$$1 from "./actions/saveCode.ts";
 import * as $$$$$$$$$$$0 from "./apps/deco/blog.ts";
 import * as $$$$$$$$$$$1 from "./apps/deco/htmx.ts";
 import * as $$$$$$$$$$$2 from "./apps/site.ts";
+import * as $$$0 from "./loaders/supabase/supabaseConfig.ts";
 import * as $$$$$$0 from "./sections/Footer.tsx";
-import * as $$$$$$1 from "./sections/ItWorks.tsx";
-import * as $$$$$$2 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$1 from "./sections/FormPage.tsx";
+import * as $$$$$$2 from "./sections/HomePage.tsx";
+import * as $$$$$$3 from "./sections/ItWorks.tsx";
+import * as $$$$$$4 from "./sections/ListPage.tsx";
+import * as $$$$$$5 from "./sections/LoginPage.tsx";
+import * as $$$$$$6 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
+  "loaders": {
+    "site/loaders/supabase/supabaseConfig.ts": $$$0,
+  },
   "sections": {
     "site/sections/Footer.tsx": $$$$$$0,
-    "site/sections/ItWorks.tsx": $$$$$$1,
-    "site/sections/Theme/Theme.tsx": $$$$$$2,
+    "site/sections/FormPage.tsx": $$$$$$1,
+    "site/sections/HomePage.tsx": $$$$$$2,
+    "site/sections/ItWorks.tsx": $$$$$$3,
+    "site/sections/ListPage.tsx": $$$$$$4,
+    "site/sections/LoginPage.tsx": $$$$$$5,
+    "site/sections/Theme/Theme.tsx": $$$$$$6,
+  },
+  "actions": {
+    "site/actions/getCodes.ts": $$$$$$$$$0,
+    "site/actions/saveCode.ts": $$$$$$$$$1,
   },
   "apps": {
     "site/apps/deco/blog.ts": $$$$$$$$$$$0,

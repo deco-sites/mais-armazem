@@ -30,5 +30,22 @@
   "firstByteThresholdMS": true,
   "theme": {
     "__resolveType": "Neutral"
+  },
+  "supabaseClient": {
+    "__resolveType": "site/loaders/supabase/supabaseConfig.ts",
+    "token": {
+      "__resolveType": "website/loaders/secret.ts",
+      "name": "SUPABASEKEY"
+    },
+    "url": "https://cxzmprqxakonhklhbtai.supabase.co"
+  },
+  "abTesting": {
+    "replaces": [],
+    "includeScriptsToHead": {
+      "includes": []
+    }
+  },
+  "flavor": {
+    "framework": "fresh"
   }
 }
